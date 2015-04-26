@@ -1,0 +1,64 @@
+@import "node_modules/material-ui/src/less/scaffolding.less";
+
+
+// Feel free to change this file to customize your app.
+// This is place to put any variable overrides as well.
+
+//Typography
+@headingFontFamily: 'Arial', sans-serif;
+@contentFontFamily: 'Arial', sans-serif;
+
+//App Colors
+@primary-1-color: @red-700;
+@primary-2-color: @red-800;
+@primary-3-color: @red-900;
+@accent-1-color: @blue-700;
+@accent-2-color: @blue-800;
+@accent-3-color: @blue-900;
+
+button input[type="file"] {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+
+.mui-app-bar {
+  top: 0;
+  background-color: @red-A700;
+}
+.mui-app-content-canvas {
+  margin: 1em;
+}
+table {
+  margin: 1em;
+  td,th {
+    padding: 0.6em;
+  }
+  tr > th {
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.paperDemo {
+  height: 100px;
+  width:100px;
+  text-align: center;
+  display: inline-block;
+  margin: 1em;
+}
+.paperDemo > div > p {
+  line-height: 100px;
+}
+
+.ToggleBox {
+  display: inline-block;
+  width: auto;
+}
+@import "node_modules/material-ui/src/less/components.less";
